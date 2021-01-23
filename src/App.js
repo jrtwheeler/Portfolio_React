@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import NavBar from "./components/NavBar";
+import NavigationBar from "./components/NavigationBar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -17,7 +17,7 @@ function App() {
   return (
     <Router>
       <div>
-        <NavBar />
+        <NavigationBar />
         <Wrapper>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
