@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import NavigationBar from "./components/NavigationBar";
-import Footer from "./components/Footer";
+import FooterStyle from "./components/FooterStyle";
 import Wrapper from "./components/Wrapper";
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
-        <Footer />
+        <FooterStyle />
       </div>
     </Router>
   );
