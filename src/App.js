@@ -1,8 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
-import SignUp from "./pages/SignUp";
-import LogIn from "./pages/LogIn";
+import About from "./pages/SignUp";
+import Portfolio from "./pages/LogIn";
+import Contact from "./pages/Contact";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
