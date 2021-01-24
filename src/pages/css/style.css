@@ -1,0 +1,80 @@
+/*Style that changes all the fonts in the page to seriff. The bootstrap default is sans-serriff */
+* {
+    font-family: Helvetica, sans-serif;
+} 
+/* Style for the footer border width */
+.border-top {
+    border-width: 8px !important;
+}
+
+#portrait {
+    border: 2px solid #17A2B8;
+    width: auto;
+    height: 200px;
+}
+
+#pour-decisions {
+    width: auto;
+    height: 250px;
+}
+
+#weather-dashboard {
+    width: auto;
+    height: 275px;
+}
+
+#nyt-image {
+    width: auto;
+    height: 135px;
+}
+
+.favicon {
+    background-color: #17A2B8;
+}
+/* Changes portrait location when the screen has a max-width of 600px or below */
+@media screen and (max-width: 600px){
+    #portrait, #pour-decisions, #weather-dashboard, #nyt-image {
+        width: 100%;
+        height: auto;
+    }
+}
+/* Sets the height and max width for the portfolio.html placeholder images */
+.portfolio-img {
+    height: 400px;
+    max-width: 100%;
+}
+
+.card {
+    margin: 3px;
+}
+
+.contact-about {
+    font-weight: 300;
+}
+
+.header-portfolio, .jumbotron {
+    background-color: #92c2d7;
+}
+
+.card-footer, .list-group-item, .contact-me, .badge {
+    background-color: #3f4b47;
+    color: whitesmoke;
+}
+
+.portrait-info {
+    background-color: #92c2d7;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.caro {
+    color:  #3f4b47;
+}
+
+.subhead {
+    color:  #3f4b47;
+    font: italic;
+}
