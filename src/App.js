@@ -25,7 +25,7 @@ function App() {
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={Contact} />
         </Wrapper>
-        <FooterStyle />
+        <FooterStyle>Made in Baltimore</FooterStyle>
       </div>
     </Router>
   );
