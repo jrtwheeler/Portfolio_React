@@ -1,0 +1,55 @@
+/*Style that changes all the fonts in the page to seriff. The bootstrap default is sans-serriff */
+* {
+    font-family: Helvetica, sans-serif;
+} 
+
+/* Tag styles */
+.card, main {
+    background-color: black;
+    font: gray;
+    margin: 10;
+    padding: 10;
+}
+
+span {
+    color:white;
+}
+
+/* ID styles */
+.contact-list {
+    font-family: Helvetica, sans-serif;
+    color: white;
+    font-style: bold;
+}
+
+.fab, .fas {
+    color:gray;
+}
+
+.hr-contacts {
+    border-style: solid;
+    border-top: 1px;
+    height: 0;
+    width: 232px;
+    border-width: 1px;
+    border-color: white;
+    margin-left:0;
+}
+
+.rule-lines-second {
+    border-color: gray;
+    background-color:gray;
+    color:gray;
+    margin-right:100%;
+}
+
+.rule-lines, .rule-lines-second {
+    border-color: white;
+    background-color: white;
+    color: white;
+    justify-self: left;
+}
+
+.h1 {
+    font-style: bold;
+}
