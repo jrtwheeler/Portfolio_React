@@ -4,7 +4,7 @@ import Hero from "../components/Hero"
 function Home() {
   return (
     <div>
-      <Hero>
+      <Hero className="mb-0">
         <h1>Hello, I'm Jim Wheeler.</h1>
         <h2>
           Citizen coder with a <span>Johns Hopkins</span> education currently coding at <span>Stanley Black and Decker</span>.

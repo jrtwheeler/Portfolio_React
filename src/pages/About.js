@@ -6,7 +6,7 @@ import "./css/style.css"
 function About() {
   return (
     <div>
-      <Hero>
+      <Hero className="mb-0">
         <h1>About Me</h1>
         <img id="portrait" className="float-left mr-2 mb-2" src={portrait}/>
         <p>

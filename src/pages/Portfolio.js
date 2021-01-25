@@ -4,7 +4,7 @@ import Hero from "../components/Hero"
 function Portfolio() {
   return (
     <div>
-     <Hero>
+     <Hero className="mb-0">
         <h1>PORTFOLIO</h1>
         <p>
             I built these projects with a mixture of coffee, grit, Front-End Web Development, HTML 5, CSS 3, Bootstrap 4,
@@ -14,7 +14,7 @@ function Portfolio() {
             Python3, Extendscript.
           </p>
           <hr />
-          <a class="btn btn-primary btn-lg contact-me" href="/about" rel="noreferrer" role="button">Contact Me</a>
+          <a class="btn btn-primary btn-lg contact-me" href="/contact" rel="noreferrer" role="button">Contact Me</a>
       </Hero>
     </div>
   );
