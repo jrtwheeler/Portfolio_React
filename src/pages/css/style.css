@@ -7,6 +7,10 @@
     border-width: 8px !important;
 }
 
+.Hero {
+    margin-bottom: 0;
+}
+
 #portrait {
     border: 2px solid #17A2B8;
     width: auto;
