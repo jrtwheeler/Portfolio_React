@@ -1,28 +1,24 @@
 import React from "react";
-import { Link, Route } from "react-router-dom";
+import Hero from "../components/Hero";
 
 function Contact(props) {
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-        Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-        pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-        tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec
-        metus vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula.
-        Nam tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora
-        torquent per conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus.
-        Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      {/* <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-        Learn More
-      </Link>{" "}
-      <Link to="/contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Route exact path={`${props.match.url}/learn`} component={Learn} /> */}
+     <Hero className="mb-0">
+        <h1>Contact Me</h1>
+        <h2>
+          To contact me, please reach out to me through LinkedIn, follow me on GitHub, or email me at wheelewell@yahoo.com.
+        </h2>
+        {/* <br/> */}
+        <hr class="rule-lines" />
+        <p>
+          <a href="https://www.linkedin.com/in/james-w-54270740/" className="contact-list"
+            target="_blank">LINKED IN</a>
+          <a> / </a>
+          <a href="https://github.com/jrtwheeler" className="contact-list" target="_blank"> GITHUB</a>
+        </p>
+        <hr class="hr-contacts" />
+      </Hero>
     </div>
   );
 }
