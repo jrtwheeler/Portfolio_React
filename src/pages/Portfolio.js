@@ -1,16 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import Hero from "../components/Hero";
-import Projects from './projects.json';
-import FriendCard from "../components/PortfolioContainer";
-import PourDecisions from "./assets/pour-decisions-phone.png";
-import NYT from "./assets/nyt-archive.png";
-import innerNet from "./assets/innerNet-logo-trans.png";
-import EmployeeDataBase from "./assets/employee-database.png";
-import PortfolioIMG from "./assets/portfolio.png";
-import Weather from "./assets/weather-dashboard-detail-2.png"
-import CardGroup from 'react-bootstrap/CardGroup';
+import Card from "../components/Card";
 
-function Portfolio() {
+class Portfolio extends Component {
+  state = {
+    search: "",
+    error: "",
+    results: []
+  };
+
+  render() {
   return (
     <div>
      <Hero className="mb-0">
@@ -25,58 +24,11 @@ function Portfolio() {
           <hr />
           <a class="btn btn-primary btn-lg contact-me" href="/contact" rel="noreferrer" role="button">Contact Me</a>
       </Hero>
-      <CardGroup>
-      <FriendCard
-        title={Projects[0].title}
-        image={PourDecisions}
-        subhead={Projects[0].subhead}
-        description={Projects[0].description}
-        github={Projects[0].github}
-        webpage={Projects[0].webpage}
+      <Card
       />
-      <FriendCard
-        title={Projects[1].title}
-        image={Weather}
-        subhead={Projects[1].subhead}
-        description={Projects[1].description}
-        github={Projects[1].github}
-        webpage={Projects[1].webpage}
-      />
-      <FriendCard
-        title={Projects[2].title}
-        image={NYT}
-        subhead={Projects[2].subhead}
-        description={Projects[2].description}
-        github={Projects[2].github}
-        webpage={Projects[2].webpage}
-      />
-      <FriendCard
-        title={Projects[3].title}
-        image={EmployeeDataBase}
-        subhead={Projects[3].subhead}
-        description={Projects[3].description}
-        github={Projects[3].github}
-        webpage={Projects[3].webpage}
-      />
-      <FriendCard
-        title={Projects[4].title}
-        image={innerNet}
-        subhead={Projects[4].subhead}
-        description={Projects[4].description}
-        github={Projects[4].github}
-        webpage={Projects[4].webpage}
-      />
-      <FriendCard
-        title={Projects[5].title}
-        image={PortfolioIMG}
-        subhead={Projects[5].subhead}
-        description={Projects[5].description}
-        github={Projects[5].github}
-        webpage={Projects[5].webpage}
-      />
-      </CardGroup>
     </div>
   );
+}
 }
 
 export default Portfolio;

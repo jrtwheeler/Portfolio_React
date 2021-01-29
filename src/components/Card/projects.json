@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "POUR DECISIONS",
-    "image": "./assets/pour-decisions-phone.png",
+    "image": "pour-decisions-phone.png",
     "subhead": "Pick a meal and a drink",
     "description": "Pour Decisions is an app that takes some of the time out of finding a recipe for dinner and drinks and gives it back to you. It lets the user choose a random meal and a random drink from https://www.themealdb.com/api and https://www.thecocktaildb.com/api. If the user likes the food or drink, they can store the search. The food and drink divs have dropdowns to show the ingrediants and recipe. Javascript JQUERY Bulma HTML CSS",
     "github": "https://github.com/jrtwheeler/Pour-Decision",
