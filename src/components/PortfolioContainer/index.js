@@ -1,25 +1,27 @@
 import React from "react";
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 
-function FriendCard(props) {
-    console.log(props)
-    return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src={props.image} />
-            <Card.Body>
-                <Card.Title>{props.title}</Card.Title>
-                <Card.Text>
-                    {props.description}
-                </Card.Text>
-            </Card.Body>
-            <Card.Body>
-                <Button variant={props.github} target="_blank">Open Github Repo</Button>
-                <br />
-                <Button variant={props.webpage} target="_blank">Open Web App</Button>
-            </Card.Body>
-        </Card>
-    );
+function Card(props) {
+
+    if (props.results) {
+        const card = props.results.map(result => {
+            return (
+                <div className="card" style={{ width: 30 + 'rem' }}>
+                    <img className="card-img-top" src={props.image} />
+                    <div className="card-body">
+                        <h1 className="card-title">{props.title}</h1>
+                        <p className="card-text"> {props.description} </p>
+                        <a href={props.github} className="btn btn-primary">Open Github Repo</a>
+                        <a href={props.webpage} className="btn btn-primary">Open Web App</a>
+                    </div>
+                </div>
+            )
+        })
+        return (
+            <div className="row">
+                {card}
+            </div>
+        )
+    }
 }
 
-export default FriendCard;
+export default Card;
