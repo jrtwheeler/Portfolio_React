@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
-
+import Container from "../components/Container";
 class Portfolio extends Component {
   state = {
     search: "",
@@ -24,8 +24,10 @@ class Portfolio extends Component {
           <hr />
           <a class="btn btn-primary btn-lg contact-me" href="/contact" rel="noreferrer" role="button">Contact Me</a>
       </Hero>
+      <Container>
       <Card
       />
+      </Container>
     </div>
   );
 }
