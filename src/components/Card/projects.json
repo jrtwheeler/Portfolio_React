@@ -2,7 +2,6 @@
   {
     "id": 1,
     "title": "POUR DECISIONS",
-    "image": "pour-decisions-phone.png",
     "subhead": "Pick a meal and a drink",
     "description": "Pour Decisions is an app that takes some of the time out of finding a recipe for dinner and drinks and gives it back to you. It lets the user choose a random meal and a random drink from https://www.themealdb.com/api and https://www.thecocktaildb.com/api. If the user likes the food or drink, they can store the search. The food and drink divs have dropdowns to show the ingrediants and recipe. Javascript JQUERY Bulma HTML CSS",
     "github": "https://github.com/jrtwheeler/Pour-Decision",
@@ -11,7 +10,6 @@
   {
     "id": 2,
     "title": "WEATHER DASHBOARD",
-    "image": "assets/weather-dashboard-detail.png",
     "subhead": "Find the day's forecast",
     "description": "The weather dashboard makes three API calls to open weather to return the daily and five day forecast for a city the user inputs. The user inputs are saved to local storage as user history. The user history becomes buttons that can activate the API call for the weather forecast. Javascript JQUERY Boostrap HTML CSS",
     "github": "https://github.com/jrtwheeler/Weather-Dashboard",
@@ -20,7 +18,6 @@
   {
     "id": 3,
     "title": "NYT SEARCH",
-    "image": "assets/nyt-archive.png",
     "subhead": "Search the NYT archives",
     "description": "I like reading the New York Times and its archives are a first draft of this countries history. I can search for old articles to read about the Lincoln Douglass Debates, the First World War, or Babe Ruth's rookie season. I wanted to write a simple search that uses the New York Times API to standardize my filters. I also wanted to take this opportunity to develop my skills in JQUERY and Bootstrap.",
     "github": "https://github.com/jrtwheeler/NYTSearch",
@@ -29,7 +26,6 @@
   {
     "id": 4,
     "title": "EMPLOYEE TEAM DIRECTORY",
-    "image": "assets/pour-decisions-detail.png",
     "subhead": "Pick a meal and a drink",
     "description": "Employee Team Directory is a dynamic REACT.js app that makes an API call for a random assortment of employees and allows the user to filter them.",
     "github": "https://github.com/jrtwheeler/Employee_Team_Directory",
@@ -38,7 +34,6 @@
   {
     "id": 5,
     "title": "inner-Net",
-    "image": "assets/pour-decisions-detail.png",
     "subhead": "Pick a meal and a drink",
     "description": "innerNet is an app that allows the user to organize their urls and to-dos in one portal.",
     "github": "https://github.com/jrtwheeler/innerNet",
@@ -47,7 +42,6 @@
   {
     "id": 6,
     "title": "PORTFOLIO",
-    "image": "assets/pour-decisions-detail.png",
     "subhead": "Pick a meal and a drink",
     "description": "The portfolio website presents my portfolio, my CV, links to my GitHub repo and LinkedIn profile, and a real time example of my ability as a designer and a UI/UX designer. My intention is to use the page both as a portfolio and as a testing ground for ideas from and for other projects. The goal is for the portfolio page to grow with me, as a journal I keep on my coding journey.",
     "github": "https://github.com/jrtwheeler/Portfolio",

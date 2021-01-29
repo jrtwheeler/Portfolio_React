@@ -7,7 +7,7 @@ function Card() {
         const card = Projects.map(result => {
             return (
                 <div className="card" style={{ width: 30 + 'rem' }}>
-                    <img className="card-img-top" src={result.image} />
+                    {/* <img className="card-img-top" src={result.image} /> */}
                     <div className="card-body">
                         <h1 className="card-title">{result.title}</h1>
                         <p className="card-text"> {result.description} </p>
