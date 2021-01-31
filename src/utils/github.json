@@ -1,5 +1,37 @@
 {
-    "basics": {},
+    "basics": {
+        "name": "Jim Wheeler",
+        "label": "Stanley Black and Decker",
+        "image": "https://avatars.githubusercontent.com/u/58869889?v=4",
+        "email": "",
+        "phone": "",
+        "url": "https://jrtwheeler.github.io/Portfolio/index.html",
+        "summary": "",
+        "profiles": [
+        {
+        "network": "gitconnected",
+        "username": "jrtwheeler",
+        "url": "https://gitconnected.com/jrtwheeler"
+        },
+        {
+        "network": "GitHub",
+        "username": "jrtwheeler",
+        "url": "https://github.com/jrtwheeler"
+        }
+        ],
+        "headline": "Front-end web developer leveraging design and writing background. Certified in full stack development from Johns Hopkins University.",
+        "blog": null,
+        "yearsOfExperience": null,
+        "username": "jrtwheeler",
+        "locationAsString": "Baltimore, MD",
+        "region": "Baltimore, MD",
+        "karma": 10,
+        "id": "71483af8-2d6a-4208-ba22-d42b35071cd9",
+        "followers": 12,
+        "following": 14,
+        "picture": "https://avatars.githubusercontent.com/u/58869889?v=4",
+        "website": "https://jrtwheeler.github.io/Portfolio/index.html"
+        },
     "skills": [],
     "projects": [
         {
