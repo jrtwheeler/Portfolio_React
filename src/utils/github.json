@@ -1,0 +1,243 @@
+{
+    "basics": {},
+    "skills": [],
+    "projects": [
+        {
+            "name": "innernet",
+            "description": "",
+            "url": "",
+            "highlights": [],
+            "keywords": [],
+            "roles": [],
+            "startDate": "",
+            "endDate": "",
+            "entity": "",
+            "type": "",
+            "displayName": "innerNet",
+            "website": "",
+            "summary": "JHU Bootcamp Project 2",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "JavaScript",
+                "CSS",
+                "Handlebars"
+            ],
+            "libraries": [],
+            "githubUrl": "https://github.com/ddunkle/innerNet",
+            "repositoryUrl": "https://github.com/ddunkle/innerNet",
+            "start": {
+                "month": 1
+            },
+            "end": {
+                "month": 1
+            },
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "walters_art_gallery_app",
+            "description": "",
+            "url": "",
+            "highlights": [],
+            "keywords": [],
+            "roles": [],
+            "startDate": "",
+            "endDate": "",
+            "entity": "",
+            "type": "",
+            "displayName": "Walters_Art_Gallery_App",
+            "website": "",
+            "summary": "",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "libraries": [],
+            "githubUrl": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
+            "repositoryUrl": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
+            "start": {
+                "month": 1
+            },
+            "end": {
+                "month": 1
+            },
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "portfolio_react",
+            "description": "",
+            "url": "",
+            "highlights": [],
+            "keywords": [],
+            "roles": [],
+            "startDate": "",
+            "endDate": "",
+            "entity": "",
+            "type": "",
+            "displayName": "Portfolio_React",
+            "website": "",
+            "summary": "",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "libraries": [],
+            "githubUrl": "https://github.com/jrtwheeler/Portfolio_React",
+            "repositoryUrl": "https://github.com/jrtwheeler/Portfolio_React",
+            "start": {
+                "month": 1
+            },
+            "end": {
+                "month": 1
+            },
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "employee_team_directory",
+            "description": "",
+            "url": "",
+            "highlights": [],
+            "keywords": [],
+            "roles": [],
+            "startDate": "",
+            "endDate": "",
+            "entity": "",
+            "type": "",
+            "displayName": "Employee_Team_Directory",
+            "website": "",
+            "summary": "Employee Team Directory is a dynamic REACT.js app that makes an API call for a random assortment of employees and allows the user to filter them.",
+            "primaryLanguage": "HTML",
+            "languages": [
+                "HTML"
+            ],
+            "libraries": [],
+            "githubUrl": "https://github.com/jrtwheeler/Employee_Team_Directory",
+            "repositoryUrl": "https://github.com/jrtwheeler/Employee_Team_Directory",
+            "start": {
+                "month": 1
+            },
+            "end": {
+                "month": 1
+            },
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "weather_dashboard",
+            "description": "",
+            "url": "",
+            "highlights": [],
+            "keywords": [],
+            "roles": [],
+            "startDate": "",
+            "endDate": "",
+            "entity": "",
+            "type": "",
+            "displayName": "Weather_Dashboard",
+            "website": "",
+            "summary": "",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "libraries": [],
+            "githubUrl": "https://github.com/jrtwheeler/Weather_Dashboard",
+            "repositoryUrl": "https://github.com/jrtwheeler/Weather_Dashboard",
+            "start": {
+                "month": 1
+            },
+            "end": {
+                "month": 1
+            },
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "new_york_times_news_app",
+            "description": "",
+            "url": "",
+            "highlights": [],
+            "keywords": [],
+            "roles": [],
+            "startDate": "",
+            "endDate": "",
+            "entity": "",
+            "type": "",
+            "displayName": "New_York_Times_News_App",
+            "website": "",
+            "summary": "",
+            "primaryLanguage": "JavaScript",
+            "languages": [
+                "CSS",
+                "JavaScript",
+                "HTML"
+            ],
+            "libraries": [],
+            "githubUrl": "https://github.com/jrtwheeler/New_York_Times_News_App",
+            "repositoryUrl": "https://github.com/jrtwheeler/New_York_Times_News_App",
+            "start": {
+                "month": 1
+            },
+            "end": {
+                "month": 1
+            },
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "portfolio",
+            "description": "",
+            "url": "",
+            "highlights": [],
+            "keywords": [],
+            "roles": [],
+            "startDate": "",
+            "endDate": "",
+            "entity": "",
+            "type": "",
+            "displayName": "Portfolio",
+            "website": "",
+            "summary": "The page provides contact information, bio and portfolio examples.",
+            "primaryLanguage": "HTML",
+            "languages": [
+                "CSS",
+                "HTML",
+                "JavaScript"
+            ],
+            "libraries": [],
+            "githubUrl": "https://github.com/jrtwheeler/Portfolio",
+            "repositoryUrl": "https://github.com/jrtwheeler/Portfolio",
+            "start": {
+                "month": 1
+            },
+            "end": {
+                "month": 1
+            },
+            "images": [],
+            "videos": []
+        }
+    ],
+    "work": [],
+    "publications": [],
+    "education": [],
+    "volunteer": [],
+    "awards": [],
+    "languages": [],
+    "interests": [],
+    "references": [],
+    "certificates": [],
+    "meta": {
+        "note": "This is a combined version of the old and new JSON Resume API to provide maximum compatibility. You will notice duplicated values in different fields.",
+        "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+        "version": "v1.0.0",
+        "lastModified": "2020-12-29T15:53:00"
+    }
+}

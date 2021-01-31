@@ -2,14 +2,28 @@ import React, { Component } from "react";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
 import Container from "../components/Container";
+import API from "../utils/github.json";
 class Portfolio extends Component {
   state = {
-    search: "",
-    error: "",
     results: []
   };
 
+  componentDidMount() {
+    this.displayResume()
+  }
+
+  // displayResume = () => {
+  //   API.getResume()
+  //     .then((res) => this.setState({ results: res.data.projects }))
+  //     .catch((err) => console.log(err));
+  // };
+
+  displayResume = () => {
+    this.setState({ results: API.projects });
+  };
+
   render() {
+    console.log(this.state.results)
   return (
     <div>
      <Hero className="mb-0">
