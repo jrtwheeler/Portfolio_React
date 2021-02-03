@@ -1,5 +1,5 @@
 import React from "react";
-import API from "../../utils/github.json";
+import API from "../../utils/github";
 
 function Card() {
     if (API) {

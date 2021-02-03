@@ -1,261 +1,264 @@
 {
     "basics": {
-        "name": "Jim Wheeler",
-        "label": "Stanley Black and Decker",
-        "image": "https://avatars.githubusercontent.com/u/58869889?v=4",
-        "email": "",
-        "phone": "",
-        "url": "https://jrtwheeler.github.io/Portfolio/index.html",
-        "summary": "",
-        "profiles": [
-        {
-        "network": "gitconnected",
-        "username": "jrtwheeler",
-        "url": "https://gitconnected.com/jrtwheeler"
-        },
-        {
-        "network": "GitHub",
-        "username": "jrtwheeler",
-        "url": "https://github.com/jrtwheeler"
-        }
-        ],
-        "headline": "Front-end web developer leveraging design and writing background. Certified in full stack development from Johns Hopkins University.",
-        "blog": null,
-        "yearsOfExperience": null,
-        "username": "jrtwheeler",
-        "locationAsString": "Baltimore, MD",
-        "region": "Baltimore, MD",
-        "karma": 10,
-        "id": "71483af8-2d6a-4208-ba22-d42b35071cd9",
-        "followers": 12,
-        "following": 14,
-        "picture": "https://avatars.githubusercontent.com/u/58869889?v=4",
-        "website": "https://jrtwheeler.github.io/Portfolio/index.html"
-        },
+    "name": "Jim Wheeler",
+    "label": "Stanley Black and Decker",
+    "image": "https://avatars.githubusercontent.com/u/58869889?v=4",
+    "email": "",
+    "phone": "",
+    "url": "https://jrtwheeler.github.io/Portfolio/index.html",
+    "summary": "Front-end web developer leveraging design and writing background to build a more intuitive user experience on the web. Certified in full stack development from the University of Johns Hopkins, with experience in JavaScript, CSS, HTML, JQUERY and responsive web design. Citizen coder who designed automations in Javascript and Python for Adobe stack for Stanley Black and Decker that saved the company forty weeks of manual data entry a year.\n\nMy automated layout system merited an Eagle Award for SBD employee of the year. To build the system, I taught myself Javascript and Python on weekends. I applied agile design to develop the system. I improve efficiency. I have fifteen years of supervisor experience. I am a committed lifelong learner who is willing to educate myself through any available means. Experienced in meeting and beating deadlines.",
+    "profiles": [
+    {
+    "network": "gitconnected",
+    "username": "jrtwheeler",
+    "url": "https://gitconnected.com/jrtwheeler"
+    },
+    {
+    "network": "GitHub",
+    "username": "jrtwheeler",
+    "url": "https://github.com/jrtwheeler"
+    }
+    ],
+    "headline": "Front-end web developer leveraging design and writing background. Certified in full stack development from Johns Hopkins University.",
+    "blog": null,
+    "yearsOfExperience": null,
+    "username": "jrtwheeler",
+    "locationAsString": "Baltimore, MD",
+    "region": "Baltimore, MD",
+    "karma": 11,
+    "id": "71483af8-2d6a-4208-ba22-d42b35071cd9",
+    "followers": 12,
+    "following": 14,
+    "picture": "https://avatars.githubusercontent.com/u/58869889?v=4",
+    "website": "https://jrtwheeler.github.io/Portfolio/index.html"
+    },
     "skills": [],
     "projects": [
-        {
-            "name": "innernet",
-            "description": "",
-            "url": "",
-            "highlights": [],
-            "keywords": [],
-            "roles": [],
-            "startDate": "",
-            "endDate": "",
-            "entity": "",
-            "type": "",
-            "displayName": "innerNet",
-            "website": "",
-            "summary": "JHU Bootcamp Project 2",
-            "primaryLanguage": "JavaScript",
-            "languages": [
-                "JavaScript",
-                "CSS",
-                "Handlebars"
-            ],
-            "libraries": [],
-            "githubUrl": "https://github.com/ddunkle/innerNet",
-            "repositoryUrl": "https://github.com/ddunkle/innerNet",
-            "start": {
-                "month": 1
-            },
-            "end": {
-                "month": 1
-            },
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "walters_art_gallery_app",
-            "description": "",
-            "url": "",
-            "highlights": [],
-            "keywords": [],
-            "roles": [],
-            "startDate": "",
-            "endDate": "",
-            "entity": "",
-            "type": "",
-            "displayName": "Walters_Art_Gallery_App",
-            "website": "",
-            "summary": "",
-            "primaryLanguage": "JavaScript",
-            "languages": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "libraries": [],
-            "githubUrl": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
-            "repositoryUrl": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
-            "start": {
-                "month": 1
-            },
-            "end": {
-                "month": 1
-            },
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "portfolio_react",
-            "description": "",
-            "url": "",
-            "highlights": [],
-            "keywords": [],
-            "roles": [],
-            "startDate": "",
-            "endDate": "",
-            "entity": "",
-            "type": "",
-            "displayName": "Portfolio_React",
-            "website": "",
-            "summary": "",
-            "primaryLanguage": "JavaScript",
-            "languages": [
-                "JavaScript",
-                "HTML",
-                "CSS"
-            ],
-            "libraries": [],
-            "githubUrl": "https://github.com/jrtwheeler/Portfolio_React",
-            "repositoryUrl": "https://github.com/jrtwheeler/Portfolio_React",
-            "start": {
-                "month": 1
-            },
-            "end": {
-                "month": 1
-            },
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "employee_team_directory",
-            "description": "",
-            "url": "",
-            "highlights": [],
-            "keywords": [],
-            "roles": [],
-            "startDate": "",
-            "endDate": "",
-            "entity": "",
-            "type": "",
-            "displayName": "Employee_Team_Directory",
-            "website": "",
-            "summary": "Employee Team Directory is a dynamic REACT.js app that makes an API call for a random assortment of employees and allows the user to filter them.",
-            "primaryLanguage": "HTML",
-            "languages": [
-                "HTML"
-            ],
-            "libraries": [],
-            "githubUrl": "https://github.com/jrtwheeler/Employee_Team_Directory",
-            "repositoryUrl": "https://github.com/jrtwheeler/Employee_Team_Directory",
-            "start": {
-                "month": 1
-            },
-            "end": {
-                "month": 1
-            },
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "weather_dashboard",
-            "description": "",
-            "url": "",
-            "highlights": [],
-            "keywords": [],
-            "roles": [],
-            "startDate": "",
-            "endDate": "",
-            "entity": "",
-            "type": "",
-            "displayName": "Weather_Dashboard",
-            "website": "",
-            "summary": "",
-            "primaryLanguage": "JavaScript",
-            "languages": [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "libraries": [],
-            "githubUrl": "https://github.com/jrtwheeler/Weather_Dashboard",
-            "repositoryUrl": "https://github.com/jrtwheeler/Weather_Dashboard",
-            "start": {
-                "month": 1
-            },
-            "end": {
-                "month": 1
-            },
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "new_york_times_news_app",
-            "description": "",
-            "url": "",
-            "highlights": [],
-            "keywords": [],
-            "roles": [],
-            "startDate": "",
-            "endDate": "",
-            "entity": "",
-            "type": "",
-            "displayName": "New_York_Times_News_App",
-            "website": "",
-            "summary": "",
-            "primaryLanguage": "JavaScript",
-            "languages": [
-                "CSS",
-                "JavaScript",
-                "HTML"
-            ],
-            "libraries": [],
-            "githubUrl": "https://github.com/jrtwheeler/New_York_Times_News_App",
-            "repositoryUrl": "https://github.com/jrtwheeler/New_York_Times_News_App",
-            "start": {
-                "month": 1
-            },
-            "end": {
-                "month": 1
-            },
-            "images": [],
-            "videos": []
-        },
-        {
-            "name": "portfolio",
-            "description": "",
-            "url": "",
-            "highlights": [],
-            "keywords": [],
-            "roles": [],
-            "startDate": "",
-            "endDate": "",
-            "entity": "",
-            "type": "",
-            "displayName": "Portfolio",
-            "website": "",
-            "summary": "The page provides contact information, bio and portfolio examples.",
-            "primaryLanguage": "HTML",
-            "languages": [
-                "CSS",
-                "HTML",
-                "JavaScript"
-            ],
-            "libraries": [],
-            "githubUrl": "https://github.com/jrtwheeler/Portfolio",
-            "repositoryUrl": "https://github.com/jrtwheeler/Portfolio",
-            "start": {
-                "month": 1
-            },
-            "end": {
-                "month": 1
-            },
-            "images": [],
-            "videos": []
-        }
+    {
+    "name": "walters_art_gallery_app",
+    "description": "The Walters Art Gallery App gives the user a chance to visit the Walters Art Gallery and view a \"stunning panorama of thousands of years of art, from romantic 19th-century images of French gardens to mesmerizing Ethiopian icons, richly illuminated Qur’ans and Gospel books, ancient Roman sarcophagi, and serene images of the Buddha.\"",
+    "url": "",
+    "highlights": [],
+    "keywords": [],
+    "roles": [],
+    "startDate": "",
+    "endDate": "",
+    "entity": "",
+    "type": "",
+    "displayName": "Walters_Art_Gallery_App",
+    "website": "",
+    "summary": "",
+    "primaryLanguage": "JavaScript",
+    "languages": [
+    "CSS",
+    "Bootstrap",
+    "JavaScript",
+    "HTML"
+    ],
+    "libraries": [
+    "Ajax",
+    "MongoDB",
+    "Nodejs",
+    "Mongoose",
+    "API",
+    "Express",
+    "Passport",
+    "MERN",
+    "Reactjs"
+    ],
+    "githubUrl": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
+    "repositoryUrl": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
+    "start": {
+    "month": 1
+    },
+    "end": {
+    "month": 1
+    },
+    "images": [],
+    "videos": []
+    },
+    {
+    "name": "portfolio_react",
+    "description": "The portfolio website presents my portfolio, my CV, links to my GitHub repo and LinkedIn profile, and a real time example of my ability as a designer and a UI/UX designer. My intention is to use the page both as a portfolio and as a testing ground for ideas from and for other projects. The goal is for the portfolio page to grow with me, as a journal I keep on my coding journey.",
+    "url": "https://portfolio-react-j.herokuapp.com/",
+    "highlights": [],
+    "keywords": [],
+    "roles": [],
+    "startDate": "",
+    "endDate": "",
+    "entity": "",
+    "type": "",
+    "displayName": "Portfolio_React",
+    "website": "https://portfolio-react-j.herokuapp.com/",
+    "summary": "My react portfolio is another perpetual work in progress. As I learn react and associated different technologies, I will incorporate them in large and small ways.",
+    "primaryLanguage": "JavaScript",
+    "languages": [
+    "JQUERY",
+    "HTML",
+    "JavaScript",
+    "CSS"
+    ],
+    "libraries": [
+    "API",
+    "Mongoose",
+    "Express",
+    "MongoDB",
+    "Node",
+    "AJAX",
+    "Passport",
+    "Bootstrap",
+    "React"
+    ],
+    "githubUrl": "https://github.com/jrtwheeler/Portfolio_React",
+    "repositoryUrl": "https://github.com/jrtwheeler/Portfolio_React",
+    "start": {
+    "month": 1
+    },
+    "end": {
+    "month": 1
+    },
+    "images": [],
+    "videos": []
+    },
+    {
+    "name": "innernet",
+    "description": "",
+    "url": "https://innernet.herokuapp.com/login",
+    "highlights": [],
+    "keywords": [],
+    "roles": [],
+    "startDate": "",
+    "endDate": "",
+    "entity": "",
+    "type": "",
+    "displayName": "innerNet",
+    "website": "https://innernet.herokuapp.com/login",
+    "summary": "innerNet allows the user to narrow the breadth of the internet to their own interests. It's a repo for websites, recipes, videos, music and anything else the user wants to stash away.",
+    "primaryLanguage": "JavaScript",
+    "languages": [
+    "Handlebars",
+    "CSS",
+    "JavaScript"
+    ],
+    "libraries": [],
+    "githubUrl": "https://github.com/jrtwheeler/innerNet",
+    "repositoryUrl": "https://github.com/jrtwheeler/innerNet",
+    "start": {
+    "month": 1
+    },
+    "end": {
+    "month": 1
+    },
+    "images": [],
+    "videos": []
+    },
+    {
+    "name": "weather-dashboard",
+    "description": "",
+    "url": "https://jrtwheeler.github.io/Weather-Dashboard/",
+    "highlights": [],
+    "keywords": [],
+    "roles": [],
+    "startDate": "",
+    "endDate": "",
+    "entity": "",
+    "type": "",
+    "displayName": "Weather-Dashboard",
+    "website": "https://jrtwheeler.github.io/Weather-Dashboard/",
+    "summary": "Weather Dashboard provides the user with a five day weather forecast for the city of their choice. The forecast includes temperature, humidity, wind speed, UV index, and a graphic for the weather.",
+    "primaryLanguage": "JavaScript",
+    "languages": [
+    "Bootstrap-4",
+    "JQUERY",
+    "JavaScript",
+    "CSS",
+    "HTML"
+    ],
+    "libraries": [
+    "AJAX"
+    ],
+    "githubUrl": "https://github.com/jrtwheeler/Weather-Dashboard",
+    "repositoryUrl": "https://github.com/jrtwheeler/Weather-Dashboard",
+    "start": {
+    "month": 1
+    },
+    "end": {
+    "month": 1
+    },
+    "images": [],
+    "videos": []
+    },
+    {
+    "name": "pour-decision",
+    "description": "",
+    "url": "https://jrtwheeler.github.io/Pour-Decision/",
+    "highlights": [],
+    "keywords": [],
+    "roles": [],
+    "startDate": "",
+    "endDate": "",
+    "entity": "",
+    "type": "",
+    "displayName": "Pour-Decision",
+    "website": "https://jrtwheeler.github.io/Pour-Decision/",
+    "summary": "Pour Decision is quick and easy way to get a recipe for a meal and a drink. Just choose the principal ingredient for the meal and drink from the dropdown menu and click the search button. ",
+    "primaryLanguage": "JavaScript",
+    "languages": [
+    "JQUERY",
+    "HTML",
+    "CSS",
+    "JavaScript"
+    ],
+    "libraries": [
+    "Bulma",
+    "Node",
+    "AJAX",
+    "API"
+    ],
+    "githubUrl": "https://github.com/jrtwheeler/Pour-Decision",
+    "repositoryUrl": "https://github.com/jrtwheeler/Pour-Decision",
+    "start": {
+    "month": 1
+    },
+    "end": {
+    "month": 1
+    },
+    "images": [],
+    "videos": []
+    },
+    {
+    "name": "portfolio",
+    "description": "The portfolio website presents my portfolio, my CV, links to my GitHub repo and LinkedIn profile, and a real time example of my ability as a designer and a UI/UX designer. My intention is to use the page both as a portfolio and as a testing ground for ideas from and for other projects. The goal is for the portfolio page to grow with me, as a journal I keep on my coding journey.",
+    "url": "https://jrtwheeler.github.io/Portfolio/index.html",
+    "highlights": [],
+    "keywords": [],
+    "roles": [],
+    "startDate": "",
+    "endDate": "",
+    "entity": "",
+    "type": "",
+    "displayName": "Portfolio",
+    "website": "https://jrtwheeler.github.io/Portfolio/index.html",
+    "summary": "The page provides contact information, bio and portfolio examples.",
+    "primaryLanguage": "HTML",
+    "languages": [
+    "JavaScript",
+    "CSS",
+    "Bootstrap-4",
+    "HTML"
+    ],
+    "libraries": [],
+    "githubUrl": "https://github.com/jrtwheeler/Portfolio",
+    "repositoryUrl": "https://github.com/jrtwheeler/Portfolio",
+    "start": {
+    "month": 1
+    },
+    "end": {
+    "month": 1
+    },
+    "images": [],
+    "videos": []
+    }
     ],
     "work": [],
     "publications": [],
@@ -267,9 +270,9 @@
     "references": [],
     "certificates": [],
     "meta": {
-        "note": "This is a combined version of the old and new JSON Resume API to provide maximum compatibility. You will notice duplicated values in different fields.",
-        "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
-        "version": "v1.0.0",
-        "lastModified": "2020-12-29T15:53:00"
+    "note": "This is a combined version of the old and new JSON Resume API to provide maximum compatibility. You will notice duplicated values in different fields.",
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2020-12-29T15:53:00"
     }
-}
+    }
