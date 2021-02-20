@@ -1,29 +1,18 @@
-import React, { Component } from "react";
+// import React, { Component } from "react";
+import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
 import Container from "../components/Container";
 import API from "../utils/github.json";
-class Portfolio extends Component {
-  state = {
-    results: []
-  };
 
-  componentDidMount() {
-    this.displayResume()
-  }
+function Portfolio () {
+    const [resume, setResume] = useState({});
+  
+    useEffect(() => {
+      setResume(API.projects);
+    }, []);
 
-  // displayResume = () => {
-  //   API.getResume()
-  //     .then((res) => this.setState({ results: res.data.projects }))
-  //     .catch((err) => console.log(err));
-  // };
-
-  displayResume = () => {
-    this.setState({ results: API.projects });
-  };
-
-  render() {
-    console.log(this.state.results)
+    console.log(resume)
   return (
     <div>
      <Hero className="mb-0">
@@ -45,6 +34,6 @@ class Portfolio extends Component {
     </div>
   );
 }
-}
+
 
 export default Portfolio;

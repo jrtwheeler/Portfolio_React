@@ -8,8 +8,12 @@ function Card() {
                 <div className="card" style={{ width: 30 + 'rem' }}>
                     {/* <img className="card-img-top" src={result.image} /> */}
                     <div className="card-body">
-                        <h1 className="card-title">{result.displayName}</h1>
+                        <h3 className="card-title">{result.displayName}</h3>
+                        <hr />
                         <p className="card-text"> {result.description} </p>
+                            {/* <ul class="list-group">
+                                <li class="list-group-item">{result.languages}</li>
+                            </ul> */}
                         <a href={result.githubUrl} className="btn btn-primary">Open Github Repo</a>
                         <a href={result.repositoryUrl} className="btn btn-primary">Open Web App</a>
                     </div>
