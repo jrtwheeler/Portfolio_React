@@ -9,14 +9,16 @@ function Card() {
                     {/* <img className="card-img-top" src={result.image} /> */}
                     <div className="card-header">
                         <h3 className="card-title">{result.displayName}</h3>
-                        </div>
-                        <div className="card-body">
+                    </div>
+                    <div className="card-body">
                         <p className="card-text"> {result.description} </p>
-                            {/* <ul class="list-group">
+                        {/* <ul class="list-group">
                                 <li class="list-group-item">{result.languages}</li>
                             </ul> */}
-                        <a href={result.githubUrl} className="btn btn-primary">Open Github Repo</a>
-                        <a href={result.repositoryUrl} className="btn btn-primary">Open Web App</a>
+                    </div>
+                    <div>
+                        <a href={result.githubUrl} className="btn btn-dark mb-3 mr-1">Open Github Repo</a>
+                        <a href={result.repositoryUrl} className="btn btn-dark mb-3 ml-1">Open Web App</a>
                     </div>
                 </div>
             )
