@@ -1,5 +1,8 @@
 import React from "react";
 import API from "../../utils/github";
+// get our fontawesome imports
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fasLink } from "@fortawesome/free-solid-svg-icons";
 
 function Card() {
     if (API) {
@@ -7,15 +10,18 @@ function Card() {
             return (
                 <div className="card" style={{ width: 30 + 'rem' }}>
                     {/* <img className="card-img-top" src={result.image} /> */}
-                    <div className="card-body">
+                    <div className="card-header">
                         <h3 className="card-title">{result.displayName}</h3>
-                        <hr />
+                    </div>
+                    <div className="card-body">
                         <p className="card-text"> {result.description} </p>
-                            {/* <ul class="list-group">
+                        {/* <ul class="list-group">
                                 <li class="list-group-item">{result.languages}</li>
                             </ul> */}
-                        <a href={result.githubUrl} className="btn btn-primary">Open Github Repo</a>
-                        <a href={result.repositoryUrl} className="btn btn-primary">Open Web App</a>
+                    </div>
+                    <div>
+                        <a href={result.githubUrl} rel="noreferrer" target="blank" className="btn btn-dark ml-3 mb-3 mr-1"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                        <a href={result.repositoryUrl} rel="noreferrer" target="blank" className="btn btn-dark mb-3 ml-1">Open website</a>
                     </div>
                 </div>
             )

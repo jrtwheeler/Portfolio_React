@@ -35,7 +35,7 @@
     "skills": [],
     "projects": [
     {
-    "name": "walters_art_gallery_app",
+    "name": "Walters Art Gallery App",
     "description": "The Walters Art Gallery App gives the user a chance to visit the Walters Art Gallery and view a \"stunning panorama of thousands of years of art, from romantic 19th-century images of French gardens to mesmerizing Ethiopian icons, richly illuminated Qur’ans and Gospel books, ancient Roman sarcophagi, and serene images of the Buddha.\"",
     "url": "",
     "highlights": [],
@@ -45,7 +45,7 @@
     "endDate": "",
     "entity": "",
     "type": "",
-    "displayName": "Walters_Art_Gallery_App",
+    "displayName": "Walters Art Gallery App",
     "website": "",
     "summary": "",
     "primaryLanguage": "JavaScript",
@@ -88,7 +88,7 @@
     "endDate": "",
     "entity": "",
     "type": "",
-    "displayName": "Portfolio_React",
+    "displayName": "Portfolio-React",
     "website": "https://portfolio-react-j.herokuapp.com/",
     "summary": "My react portfolio is another perpetual work in progress. As I learn react and associated different technologies, I will incorporate them in large and small ways.",
     "primaryLanguage": "JavaScript",
@@ -122,7 +122,7 @@
     },
     {
     "name": "innernet",
-    "description": "",
+    "description": "innerNet allows the user to narrow the breadth of the internet to their own interests. It's a repo for websites, recipes, videos, music and anything else the user wants to stash away.",
     "url": "https://innernet.herokuapp.com/login",
     "highlights": [],
     "keywords": [],
@@ -131,7 +131,7 @@
     "endDate": "",
     "entity": "",
     "type": "",
-    "displayName": "innerNet",
+    "displayName": "InnerNet",
     "website": "https://innernet.herokuapp.com/login",
     "summary": "innerNet allows the user to narrow the breadth of the internet to their own interests. It's a repo for websites, recipes, videos, music and anything else the user wants to stash away.",
     "primaryLanguage": "JavaScript",
@@ -154,7 +154,7 @@
     },
     {
     "name": "weather-dashboard",
-    "description": "",
+    "description": "Weather Dashboard provides the user with a five day weather forecast for the city of their choice. The forecast includes temperature, humidity, wind speed, UV index, and a graphic for the weather.",
     "url": "https://jrtwheeler.github.io/Weather-Dashboard/",
     "highlights": [],
     "keywords": [],
@@ -163,7 +163,7 @@
     "endDate": "",
     "entity": "",
     "type": "",
-    "displayName": "Weather-Dashboard",
+    "displayName": "Weather Dashboard",
     "website": "https://jrtwheeler.github.io/Weather-Dashboard/",
     "summary": "Weather Dashboard provides the user with a five day weather forecast for the city of their choice. The forecast includes temperature, humidity, wind speed, UV index, and a graphic for the weather.",
     "primaryLanguage": "JavaScript",
@@ -189,8 +189,8 @@
     "videos": []
     },
     {
-    "name": "pour-decision",
-    "description": "",
+    "name": "Pour Decision",
+    "description": "Pour Decision is quick and easy way to get a recipe for a meal and a drink. Just choose the principal ingredient for the meal and drink from the dropdown menu and click the search button. ",
     "url": "https://jrtwheeler.github.io/Pour-Decision/",
     "highlights": [],
     "keywords": [],
@@ -227,7 +227,7 @@
     "videos": []
     },
     {
-    "name": "portfolio",
+    "name": "Portfolio",
     "description": "The portfolio website presents my portfolio, my CV, links to my GitHub repo and LinkedIn profile, and a real time example of my ability as a designer and a UI/UX designer. My intention is to use the page both as a portfolio and as a testing ground for ideas from and for other projects. The goal is for the portfolio page to grow with me, as a journal I keep on my coding journey.",
     "url": "https://jrtwheeler.github.io/Portfolio/index.html",
     "highlights": [],
