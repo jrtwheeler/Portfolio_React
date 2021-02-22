@@ -7,9 +7,10 @@ function Card() {
             return (
                 <div className="card" style={{ width: 30 + 'rem' }}>
                     {/* <img className="card-img-top" src={result.image} /> */}
-                    <div className="card-body">
+                    <div className="card-header">
                         <h3 className="card-title">{result.displayName}</h3>
-                        <hr />
+                        </div>
+                        <div className="card-body">
                         <p className="card-text"> {result.description} </p>
                             {/* <ul class="list-group">
                                 <li class="list-group-item">{result.languages}</li>
