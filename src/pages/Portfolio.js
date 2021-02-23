@@ -11,7 +11,6 @@ function Portfolio () {
       setResume(API.projects);
     }, []);
 
-    console.log(resume)
   return (
     <div>
      <Hero className="mb-0">
