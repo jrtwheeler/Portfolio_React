@@ -1,4 +1,3 @@
-// import React, { Component } from "react";
 import React, { useEffect, useState } from "react";
 import Hero from "../components/Hero";
 import Card from "../components/Card";
@@ -12,7 +11,6 @@ function Portfolio () {
       setResume(API.projects);
     }, []);
 
-    console.log(resume)
   return (
     <div>
      <Hero className="mb-0">

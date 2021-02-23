@@ -9,15 +9,11 @@ function Card() {
         const card = API.projects.map(result => {
             return (
                 <div className="card" style={{ width: 30 + 'rem' }}>
-                    {/* <img className="card-img-top" src={result.image} /> */}
                     <div className="card-header">
                         <h3 className="card-title">{result.displayName}</h3>
                     </div>
                     <div className="card-body">
                         <p className="card-text"> {result.description} </p>
-                        {/* <ul class="list-group">
-                                <li class="list-group-item">{result.languages}</li>
-                            </ul> */}
                     </div>
                     <div>
                         <a href={result.githubUrl} rel="noreferrer" target="blank" className="btn btn-dark ml-3 mb-3 mr-1"><FontAwesomeIcon icon={['fab', 'github']} /></a>
@@ -25,6 +21,7 @@ function Card() {
                     </div>
                 </div>
             )
+            
         })
         return (
             <div className="row">
