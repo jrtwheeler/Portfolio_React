@@ -9,7 +9,7 @@ function Card() {
         const card = API.projects.map(result => {
             return (
                 <div className="card" style={{ width: 30 + 'rem' }}>
-                    {/* <img className="card-img-top" src={result.image} /> */}
+                    <img className="card-img-top" src={result.image} />
                     <div className="card-header">
                         <h3 className="card-title">{result.displayName}</h3>
                     </div>
@@ -25,6 +25,7 @@ function Card() {
                     </div>
                 </div>
             )
+            
         })
         return (
             <div className="row">
