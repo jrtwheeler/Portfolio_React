@@ -11,6 +11,10 @@
     margin-bottom: 0;
 }
 
+.background {
+    background-color: #030806;
+}
+
 #portrait {
     border: 2px solid #17A2B8;
     width: auto;
