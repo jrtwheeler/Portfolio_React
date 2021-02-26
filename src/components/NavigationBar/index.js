@@ -8,13 +8,13 @@ import ReactTooltip from "react-tooltip";
 function NavigationBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="/home" rel="noreferrer">Jim Wheeler</Navbar.Brand>
+      <Navbar.Brand href="/home" rel="noreferrer"><h5>Jim Wheeler</h5></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link href="/about" rel="noreferrer">About</Nav.Link>
-          <Nav.Link href="/portfolio" rel="noreferrer">Portfolio</Nav.Link>
-          <Nav.Link href="/contact" rel="noreferrer">Contact</Nav.Link>
+          <Nav.Link href="/about" rel="noreferrer"><h5>About</h5></Nav.Link>
+          <Nav.Link href="/portfolio" rel="noreferrer"><h5>Portfolio</h5></Nav.Link>
+          <Nav.Link href="/contact" rel="noreferrer"><h5>Contact</h5></Nav.Link>
         </Nav>
         <Nav>
           <Nav.Link href="https://www.linkedin.com/in/james-w-54270740/" target="_blank" rel="noreferrer" data-tip
