@@ -21,7 +21,7 @@ function NavigationBar() {
             data-for="linkedIn">
             <ReactTooltip
               id="linkedIn"
-              place="top"
+              place="bottom"
               effect="solid"
               backgroundColor="#4A6479"
             >
@@ -29,9 +29,18 @@ function NavigationBar() {
               </ReactTooltip>
             <h2><FontAwesomeIcon icon={['fab', 'linkedin']} /></h2>
           </Nav.Link>
-          <Nav.Link href="https://github.com/jrtwheeler" target="_blank" rel="noreferrer"><h2>
-            <FontAwesomeIcon icon={['fab', 'github']} /></h2>
+          <Nav.Link href="https://github.com/jrtwheeler" target="_blank" rel="noreferrer" data-tip
+            data-for="GitHub"><h2>
+              <FontAwesomeIcon icon={['fab', 'github']} /></h2>
           </Nav.Link>
+          <ReactTooltip
+            id="GitHub"
+            place="bottom"
+            effect="solid"
+            backgroundColor="#4A6479"
+          >
+            See more on GitHub
+            </ReactTooltip>
           <Nav.Link href="https://docs.google.com/document/d/e/2PACX-1vTRm2WKIL8udaUOcZXCVm3yrinhqizl94i95SiFVBGaXU1iZIsq3B1RHFCroQ2Mg8V0x-Z4O9ex0TwF/pub" target="_blank">
             <h2>
               <FontAwesomeIcon icon={faFile} /></h2>
