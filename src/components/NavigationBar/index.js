@@ -3,6 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/fontawesome-free-solid';
 import ReactTooltip from "react-tooltip";
+import "./style.css";
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 function NavigationBar() {
