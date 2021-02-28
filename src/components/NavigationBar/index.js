@@ -3,13 +3,14 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/fontawesome-free-solid';
 import ReactTooltip from "react-tooltip";
+import portrait from "./portrait.jpg"
 import "./style.css";
 
 // Depending on the current path, this component sets the "active" className on the appropriate navigation link item
 function NavigationBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Navbar.Brand href="/home" rel="noreferrer"><h5>Jim Wheeler</h5></Navbar.Brand>
+      <Navbar.Brand href="/home" rel="noreferrer"><h5><img className="avatar" src={portrait} alt="Jim Wheeler"/></h5></Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
