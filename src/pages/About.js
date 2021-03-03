@@ -13,12 +13,12 @@ function About() {
           Front-end web developer leveraging design and writing background to build a more intuitive user experience
           on the web. Certified in full stack development from the University of Johns Hopkins, with experience in
           JavaScript, CSS, HTML, JQUERY and responsive web design. Citizen coder who designed automations in
-          Javascript and Python for Adobe stack for Stanley Black and Decker that saved the company forty weeks of
+          JavaScript and Python for Adobe stack for Stanley Black and Decker that saved the company forty weeks of
           manual data entry a year.
           </p>
         <p>
           My automated layout system merited an Eagle Award for SBD employee of the year. To
-          build the system, I taught myself Javascript and Python on weekends. I applied agile design to develop the
+          build the system, I taught myself JavaScript and Python on weekends. I applied agile design to develop the
           system. I improve efficiency. I have fifteen years of supervisor experience. I am a committed lifelong
           learner who is willing to educate myself through any available means. Experienced in meeting and beating
           deadlines.
