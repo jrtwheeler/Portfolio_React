@@ -17,7 +17,7 @@
 * MongoDB
 * Nodejs
 * Passport
-* Javascript
+* JavaScript
 * JQUERY
 * CSS
 * HTML
