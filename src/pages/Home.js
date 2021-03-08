@@ -5,11 +5,13 @@ import "./css/style.css"
 
 function Home() {
   return (
-    <div className = "background">
-      <Hero>
-        <h1>Hello, I'm {API.basics.name}.</h1>
+    <div className = "background"> 
+    <div class="spacer"></div>
+    <div class="home container mx-auto">
+        <h1 class="hello">Hello, I'm {API.basics.name}.</h1>
+        <hr class="hr-contacts" />
         <h2>
-          Citizen coder with a <span>Johns Hopkins</span> education currently coding at <span>Stanley Black and Decker</span>.
+          Citizen coder with a <span>Johns Hopkins</span> education <br/> currently coding at <span>Stanley Black and Decker</span>.
         </h2>
         {/* <br/> */}
         <hr class="rule-lines" />
@@ -23,7 +25,7 @@ function Home() {
             className="contact-list" rel="noreferrer" target="_blank"> RESUME </a>
         </p>
         <hr class="hr-contacts" />
-      </Hero>
+    </div>
     </div>
   );
 }
