@@ -11,8 +11,14 @@
     margin-bottom: 0;
 }
 
+.home {
+    width: 200px;
+    background-color: black;
+}
+
 .background {
-    background-color: #030806;
+    background-color: black;
+    height: 600px;
 }
 
 #portrait {
@@ -24,6 +30,10 @@
 #pour-decisions {
     width: auto;
     height: 250px;
+}
+
+span {
+    color: white;
 }
 
 #weather-dashboard {
@@ -74,8 +84,22 @@
     color: white;
 }
 
-a {
+.hello {
+    font-weight: bold;
     color: white;
+}
+
+a, .contact-list {
+    color: white;
+}
+
+.hr-contacts {
+    border-top: 300px;
+    color: white;
+}
+
+.spacer {
+    height: 50px;
 }
 
 .caro {
