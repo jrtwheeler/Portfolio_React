@@ -68,6 +68,8 @@ span {
 
 .contact-about {
     font-weight: 300;
+    color: black;
+    font-weight: bold;
 }
 
 .header-portfolio, .jumbotron {
@@ -91,6 +93,10 @@ span {
 
 a, .contact-list {
     color: white;
+}
+
+.about-contact-list {
+    color: black;
 }
 
 .hr-contacts {
