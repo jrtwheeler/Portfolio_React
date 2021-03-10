@@ -12,10 +12,10 @@ function Contact(props) {
         {/* <br/> */}
         <hr class="rule-lines" />
         <p>
-          <a href="https://www.linkedin.com/in/james-w-54270740/" className="contact-list" rel="noreferrer"
+          <a href="https://www.linkedin.com/in/james-w-54270740/" className="about-contact-list" rel="noreferrer"
             target="_blank">LINKED IN</a>
           /
-          <a href="https://github.com/jrtwheeler" className="contact-list" rel="noreferrer" target="_blank"> GITHUB</a>
+          <a href="https://github.com/jrtwheeler" className="about-contact-list" rel="noreferrer" target="_blank"> GITHUB</a>
         </p>
         <hr class="hr-contacts" />
       </Hero>
