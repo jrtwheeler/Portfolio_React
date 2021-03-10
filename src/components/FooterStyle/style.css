@@ -1,8 +1,9 @@
-#footer {
+
+
+  .card-footer {
     position: absolute;
-    background-color: black;
     bottom: 0;
     width: 100%;
-    bottom: 0;
-    height: 2.5rem;            /* Footer height */
+    background-color: #333;
+    color:#fff;
   }
