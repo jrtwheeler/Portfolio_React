@@ -9,19 +9,19 @@
   },
   {
     "id": 2,
-    "title": "WEATHER DASHBOARD",
+    "title": "BIKE SHOP",
     "subhead": "Find the day's forecast",
     "description": "The weather dashboard makes three API calls to open weather to return the daily and five day forecast for a city the user inputs. The user inputs are saved to local storage as user history. The user history becomes buttons that can activate the API call for the weather forecast. Javascript JQUERY Boostrap HTML CSS",
-    "github": "https://github.com/jrtwheeler/Weather-Dashboard",
-    "webpage": "https://jrtwheeler.github.io/Weather-Dashboard/"
+    "github": "https://github.com/chernanma/New-Bike-Shop",
+    "webpage": "https://new-bike-shop.herokuapp.com/"
   },
   {
     "id": 3,
-    "title": "NYT SEARCH",
+    "title": "WALTERS ART GALLERY APP",
     "subhead": "Search the NYT archives",
-    "description": "I like reading the New York Times and its archives are a first draft of this countries history. I can search for old articles to read about the Lincoln Douglass Debates, the First World War, or Babe Ruth's rookie season. I wanted to write a simple search that uses the New York Times API to standardize my filters. I also wanted to take this opportunity to develop my skills in JQUERY and Bootstrap.",
-    "github": "https://github.com/jrtwheeler/NYTSearch",
-    "webpage": "https://jrtwheeler.github.io/NYTSearch"
+    "description": "The Walters Art Gallery App gives the user a chance to visit the Walters Art Gallery and view a 'stunning panorama of thousands of years of art, from romantic 19th-century images of French gardens to mesmerizing Ethiopian icons, richly illuminated Qur’ans and Gospel books, ancient Roman sarcophagi, and serene images of the Buddha.'",
+    "github": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
+    "webpage": "https://walters-art-gallery-app.herokuapp.com/"
   },
   {
     "id": 4,
