@@ -11,7 +11,7 @@
     "id": 2,
     "title": "BIKE SHOP",
     "subhead": "Find the day's forecast",
-    "description": "The weather dashboard makes three API calls to open weather to return the daily and five day forecast for a city the user inputs. The user inputs are saved to local storage as user history. The user history becomes buttons that can activate the API call for the weather forecast. Javascript JQUERY Boostrap HTML CSS",
+    "description": "Bicycle App shop is an application that allows users to select bicycles by brand name, accessories, and service request. The user will have the ability to view the actual image of their selection along with the price and inventory in –stock associated with each item. This webpage contains fully functional forms for the users and members to sign in, along with operational features that allow them to easily navigate , view options, make selections, and checkout successfully",
     "github": "https://github.com/chernanma/New-Bike-Shop",
     "webpage": "https://new-bike-shop.herokuapp.com/"
   },
