@@ -67,7 +67,7 @@
     "Reactjs"
     ],
     "githubUrl": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
-    "repositoryUrl": "https://github.com/jrtwheeler/Walters_Art_Gallery_App",
+    "repositoryUrl": "https://walters-art-museum.herokuapp.com/",
     "start": {
     "month": 1
     },
@@ -78,8 +78,8 @@
     "videos": []
     },
     {
-    "name": "portfolio_react",
-    "description": "The portfolio website presents my portfolio, my CV, links to my GitHub repo and LinkedIn profile, and a real time example of my ability as a designer and a UI/UX designer. My intention is to use the page both as a portfolio and as a testing ground for ideas from and for other projects. The goal is for the portfolio page to grow with me, as a journal I keep on my coding journey.",
+    "name": "Bike Shop",
+    "description": "Bicycle App shop is an application that allows users to select bicycles by brand name, accessories, and service request. The user will have the ability to view the actual image of their selection along with the price and inventory in –stock associated with each item. This webpage contains fully functional forms for the users and members to sign in, along with operational features that allow them to easily navigate , view options, make selections, and checkout successfully",
     "url": "https://portfolio-react-j.herokuapp.com/",
     "highlights": [],
     "keywords": [],
@@ -88,9 +88,9 @@
     "endDate": "",
     "entity": "",
     "type": "",
-    "displayName": "Portfolio-React",
+    "displayName": "Bike Shop",
     "website": "https://portfolio-react-j.herokuapp.com/",
-    "summary": "My react portfolio is another perpetual work in progress. As I learn react and associated different technologies, I will incorporate them in large and small ways.",
+    "summary": "Bicycle App shop is an application that allows users to select bicycles by brand name, accessories, and service request. The user will have the ability to view the actual image of their selection along with the price and inventory in –stock associated with each item. This webpage contains fully functional forms for the users and members to sign in, along with operational features that allow them to easily navigate , view options, make selections, and checkout successfully",
     "primaryLanguage": "JavaScript",
     "languages": [
     "JQUERY",
@@ -99,18 +99,20 @@
     "CSS"
     ],
     "libraries": [
-    "API",
-    "Mongoose",
-    "Express",
-    "MongoDB",
-    "Node",
-    "AJAX",
-    "Passport",
-    "Bootstrap",
-    "React"
+    "HTML",
+        "JavaScript",
+        "jQuery",
+        "node.js",
+        "MySQL",
+        "3rd party framework",
+        "Express",
+        "Handlebars",
+        "CSS",
+        "MVC model",
+        "Amazon Web Services"
     ],
-    "githubUrl": "https://github.com/jrtwheeler/Portfolio_React",
-    "repositoryUrl": "https://github.com/jrtwheeler/Portfolio_React",
+    "githubUrl": "https://github.com/chernanma/New-Bike-Shop",
+    "repositoryUrl": "https://new-bike-shop.herokuapp.com/",
     "start": {
     "month": 1
     },
@@ -142,7 +144,7 @@
     ],
     "libraries": [],
     "githubUrl": "https://github.com/jrtwheeler/innerNet",
-    "repositoryUrl": "https://github.com/jrtwheeler/innerNet",
+    "repositoryUrl": "https://innernet.herokuapp.com/login",
     "start": {
     "month": 1
     },
