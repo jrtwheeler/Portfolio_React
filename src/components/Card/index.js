@@ -16,8 +16,8 @@ function Card() {
                         <p className="card-text"> {result.description} </p>
                     </div>
                     <div>
-                        <a href={result.githubUrl} rel="noreferrer" target="blank" className="btn btn-dark ml-3 mb-3 mr-1"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-                        <a href={result.repositoryUrl} rel="noreferrer" target="blank" className="btn btn-dark mb-3 ml-1"><FaLink/></a>
+                        <a href={result.githubUrl} rel="noreferrer" target="blank" className="btn btn-dark ml-3 mb-3 mr-1" data-toggle="tooltip" data-placement="top" title="Open GitHub Repo"><FontAwesomeIcon icon={['fab', 'github']} /></a>
+                        <a href={result.repositoryUrl} rel="noreferrer" target="blank" className="btn btn-dark mb-3 ml-1" data-toggle="tooltip" data-placement="top" title="Open Webpage"><FaLink/></a>
                     </div>
                 </div>
             )
