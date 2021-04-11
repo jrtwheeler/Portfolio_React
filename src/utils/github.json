@@ -144,7 +144,8 @@
     ],
     "libraries": [],
     "githubUrl": "https://github.com/jrtwheeler/innerNet",
-    "repositoryUrl": "https://innernet.herokuapp.com/login",
+    "repositoryUrl": "https://innernet.herokuapp.com/login
+    ",
     "start": {
     "month": 1
     },
@@ -218,7 +219,7 @@
     "API"
     ],
     "githubUrl": "https://github.com/jrtwheeler/Pour-Decision",
-    "repositoryUrl": "https://github.com/jrtwheeler/Pour-Decision",
+    "repositoryUrl": "https://jrtwheeler.github.io/Pour-Decision/",
     "start": {
     "month": 1
     },
@@ -251,7 +252,7 @@
     ],
     "libraries": [],
     "githubUrl": "https://github.com/jrtwheeler/Portfolio",
-    "repositoryUrl": "https://github.com/jrtwheeler/Portfolio",
+    "repositoryUrl": "https://jrtwheeler.github.io/Portfolio/index.html",
     "start": {
     "month": 1
     },
