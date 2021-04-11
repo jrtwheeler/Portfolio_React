@@ -144,8 +144,7 @@
     ],
     "libraries": [],
     "githubUrl": "https://github.com/jrtwheeler/innerNet",
-    "repositoryUrl": "https://innernet.herokuapp.com/login
-    ",
+    "repositoryUrl": "https://innernet.herokuapp.com/login",
     "start": {
     "month": 1
     },
@@ -181,7 +180,7 @@
     "AJAX"
     ],
     "githubUrl": "https://github.com/jrtwheeler/Weather-Dashboard",
-    "repositoryUrl": "https://github.com/jrtwheeler/Weather-Dashboard",
+    "repositoryUrl": "https://jrtwheeler.github.io/Weather-Dashboard/",
     "start": {
     "month": 1
     },
