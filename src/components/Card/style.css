@@ -1,0 +1,7 @@
+.btn + .tooltip-inner {
+  background-color: rgb(102, 168, 194);
+}
+
+.btn + .tooltip.bs-tooltip-bottom .arrow:before {
+  border-right-color: steelblue;
+}
