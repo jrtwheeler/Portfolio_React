@@ -4,6 +4,7 @@ import API from "../../utils/github";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { FaLink } from "react-icons/fa";
 import ReactTooltip from "react-tooltip";
+import { ReactTinyLink } from "react-tiny-link";
 
 function Card() {
     if (API) {
@@ -14,7 +15,14 @@ function Card() {
                         <h3 className="card-title">{result.displayName}</h3>
                     </div>
                     <div className="card-body">
-                        <p className="card-text"> {result.description} </p>
+                        <ReactTinyLink
+                            cardSize="large"
+                            showGraphic={true}
+                            maxLine={2}
+                            minLine={1}
+                            url={result.repositoryUrl}
+                        />
+                        <p className="card-text mt-3"> {result.description} </p>
                     </div>
                     <div>
                         <ReactTooltip
