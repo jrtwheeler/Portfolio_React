@@ -20,7 +20,7 @@ function Card() {
                             showGraphic={true}
                             maxLine={2}
                             minLine={1}
-                            url={result.repositoryUrl}
+                            url={result.githubUrl}
                         />
                         <p className="card-text mt-3"> {result.description} </p>
                     </div>
