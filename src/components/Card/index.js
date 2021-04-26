@@ -15,13 +15,13 @@ function Card() {
                         <h3 className="card-title">{result.displayName}</h3>
                     </div>
                     <div className="card-body">
-                        <ReactTinyLink
+                        {/* <ReactTinyLink
                             cardSize="large"
                             showGraphic={true}
                             maxLine={2}
                             minLine={1}
                             url={result.githubUrl}
-                        />
+                        /> */}
                         <p className="card-text mt-3"> {result.description} </p>
                     </div>
                     <div>
